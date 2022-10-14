@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AuthJWT_CQRS.Data" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RolesAdminUserId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">581d4a5c-dd43-49c0-9e1a-7960bc24de5c</Value>
+    </Setting>
+    <Setting Name="RolesAdminPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678</Value>
+    </Setting>
+    <Setting Name="RolesAdminRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">915f3c44-8a59-45ae-8903-aa49a44847e4</Value>
+    </Setting>
+    <Setting Name="RolesSuperuserRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">760e5cdf-fc52-4557-80e2-217a323e61ce</Value>
+    </Setting>
+    <Setting Name="RolesUserRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">80f66454-27e9-4e77-ac71-c8800861c330</Value>
+    </Setting>
+    <Setting Name="RolesViewerRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">f4075620-9a38-48c5-8cef-a677e98dfa9e</Value>
+    </Setting>
+    <Setting Name="RolesGuestRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">f36854dd-aaa8-4e2d-aa88-17e9e6809ebb</Value>
+    </Setting>
+    <Setting Name="RolesProducerRoleId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">df881f83-11a3-4f2c-9171-5cd1a51a29ee</Value>
+    </Setting>
+    <Setting Name="RolesAdmin" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Admin</Value>
+    </Setting>
+    <Setting Name="RolesSuperuser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Superuser</Value>
+    </Setting>
+    <Setting Name="RolesUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User</Value>
+    </Setting>
+    <Setting Name="RolesGuest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Guest</Value>
+    </Setting>
+    <Setting Name="RolesViewer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Viewer</Value>
+    </Setting>
+    <Setting Name="RolesProducer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Producer</Value>
+    </Setting>
+    <Setting Name="JwtSecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ThisIsASecretKey</Value>
+    </Setting>
+    <Setting Name="AccessTokenExpireTime" Type="System.Double" Scope="Application">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="AdminFirstName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Fırat</Value>
+    </Setting>
+    <Setting Name="AdminLastName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ataş</Value>
+    </Setting>
+    <Setting Name="AdminEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">firatatas@gmail.com</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">User ID =postgres;Password="pg_password";Server=localhost;Port=5432;Database=DbAuthJwtCqrs;Integrated Security=true;Pooling=true;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
